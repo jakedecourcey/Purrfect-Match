@@ -1,7 +1,43 @@
-.hero {
-  text-align: center;
+body {
+  background: whitesmoke;
+}
+
+h2, h3 {
+  color: whitesmoke;
+  font-family: Comfortaa, sans-serif;
+}
+
+hr {
+  width: 222px;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+}
+
+.nav {
+  min-width: 960px;
 }
 
 .jumbotron {
-  background-image: url();
+  background-image: url('https://fthmb.tqn.com/akai7DgNZ3amKMV-v1uQ_ipd04E=/960x0/filters:no_upscale()/ginger-kitten-cuddle-with-adult-tabby-cat--459759125-599342aa054ad90011f480a9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.hero {
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 240px;
+  height: 600px;
+  width: 100%;
+}
+
+.bar {
+  height: 60px;
+  background: #343a40;
+}
+
+.btn-success {
+  margin-left: 10px;
 }
